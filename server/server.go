@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/aaryan01/grpc-assignment/calculatorpb/calculator/calculatorpb"
+	"github.com/aaryan01/grpc-assignment/calculatorpb"
 	"google.golang.org/grpc"
 )
 
