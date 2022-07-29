@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "./";
+option go_package = "./calculatorpb";
 
 message SumRequest {
   double num1 = 1;

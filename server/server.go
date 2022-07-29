@@ -116,7 +116,6 @@ func (*server) FindMaxNumber(stream calculatorpb.CalculatorService_FindMaxNumber
 			}
 		}
 	}
-	return nil
 }
 
 func main() {

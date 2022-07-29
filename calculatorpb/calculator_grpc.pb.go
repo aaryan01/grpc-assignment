@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.4
-// source: calculator.proto
+// source: calculatorpb/calculator.proto
 
-package __
+package calculatorpb
 
 import (
 	context "context"
@@ -303,5 +303,5 @@ var CalculatorService_ServiceDesc = grpc.ServiceDesc{
 			ClientStreams: true,
 		},
 	},
-	Metadata: "calculator.proto",
+	Metadata: "calculatorpb/calculator.proto",
 }
